@@ -67,7 +67,7 @@ const NavContainer = styled.nav`
     }
   }
   padding: 0.4rem;
-  background-color: #FFF9FB;
+  background-color: #FFF;
   display: flex;
   align-items: center;
   justify-content: space-between;
@@ -82,7 +82,7 @@ const NavContainer = styled.nav`
     left: -100%; /* Cambiar la posición inicial a -100% para ocultar el menú */
     width: 80%; /* Ajustar el ancho del menú según tus preferencias */
     height: 100%;
-    background-color: #FFF9FB;
+    background-color: #FFF;
     text-align: center;
     transition: all 0.5s ease;
     z-index: 1;
@@ -122,7 +122,7 @@ const NavContainer = styled.nav`
 `;
 
 const BgDiv = styled.div`
-  background-color: #FFF9FB;
+  background-color: #FFF;
   position: absolute;
   top: 0;
   left: 0;
