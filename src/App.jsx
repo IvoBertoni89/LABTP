@@ -11,7 +11,8 @@ import { Footer } from "./pages/components/Footer";
 //import { useContext } from "react";
 import { useFilters } from "./hooks/useFilters";
 import { CartProvider } from "./contexts/CartContext";
-import { UserProvider } from "./contexts/userContext";
+import { UserProvider } from "./contexts/UserContext";
+import { Offers } from "./component/Offers";
 
 //export const userContext = React.createContext(); te olvidaste esta línea (?)
 
@@ -35,6 +36,8 @@ function App() {
           <Contact />
           <Footer />
         </UserProvider>
+        <Offers/>
+        
       </div>
     </>
   );
